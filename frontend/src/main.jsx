@@ -4,14 +4,14 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import './index.css'
 import App from './App.jsx'
 
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
-import Tasks from "./pages/Tasks";
-import Reports from "./pages/Reports";
-import Header from "./components/Header";
+import Login from "./pages/Login.jsx";
+import Register from "./pages/Register.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import Tasks from "./pages/Tasks.jsx";
+import Reports from "./pages/Reports.jsx";
+import Header from "./components/Header.jsx";
 
-import { loadTokenFromStorage } from './api/apiClient';
+import { loadTokenFromStorage } from './api/apiClient.js';
 
 loadTokenFromStorage();
 
